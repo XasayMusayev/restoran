@@ -1,0 +1,626 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Product Sans";
+}
+
+@font-face {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format("woff2");
+}
+.main-container {
+  width: 100%;
+  padding-left: 375px;
+}
+.main-container .navigation {
+  margin-right: 100px;
+  width: 847px;
+  display: flex;
+  margin-top: 30px;
+}
+.main-container .navigation-items {
+  display: flex;
+  list-style: none;
+  width: 523px;
+  justify-content: space-between;
+  margin-left: 162px;
+  align-items: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 550;
+}
+.main-container .button {
+  padding: 7px 17px;
+  border-radius: 120px;
+  background-color: #F16214;
+  font-size: 13px;
+  color: #FFFFFF;
+}
+.main-container .center-content {
+  margin-top: 141px;
+  width: 488px;
+  height: 273px;
+  font-size: 75px;
+}
+.main-container .center-content p {
+  font-size: 75px;
+  color: #000000;
+  font-weight: bold;
+}
+.main-container .second-content {
+  margin-top: 15px;
+  width: 570px;
+  height: 66px;
+}
+.main-container .second-content p {
+  font-size: 16px;
+  color: #888888;
+}
+.main-container .img1 img {
+  right: 0px;
+  left: 760px;
+  top: 44px;
+  width: 758px;
+  height: 658px;
+  z-index: -1;
+  position: absolute;
+}
+.main-container .button2div {
+  margin-top: 40px;
+}
+.main-container .media {
+  display: flex;
+  width: 229px;
+  height: 40px;
+  gap: 23px;
+  margin-top: 40px;
+}
+.main-container .location {
+  height: 217px;
+  margin-top: 110px;
+  margin-right: 375px;
+}
+.main-container .location .locat {
+  height: 96px;
+  display: flex;
+}
+.main-container .location .locat .saat {
+  width: 310px;
+  height: 97px;
+}
+.main-container .location .locat .saat img {
+  margin-left: 78px;
+}
+.main-container .location .locat .saat .firstp {
+  margin-top: 6px;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 700;
+}
+.main-container .location .locat .saat .secondp {
+  margin-left: 60px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  color: #888888;
+  font-size: 13px;
+}
+.main-container .location .locat .loc {
+  width: 400px;
+  height: 97px;
+  margin-left: 102px;
+  margin-right: 149px;
+}
+.main-container .location .locat .loc img {
+  margin-left: 130px;
+}
+.main-container .location .locat .loc .threadp {
+  margin-top: 6px;
+  margin-left: 55px;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 700;
+}
+.main-container .location .locat .loc .fourthp {
+  margin-left: 110px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  color: #888888;
+  font-size: 13px;
+}
+.main-container .location .locat .tel {
+  width: 83px;
+  height: 97px;
+}
+.main-container .location .locat .tel img {
+  margin-left: 32px;
+}
+.main-container .location .locat .tel .fivep {
+  margin-top: 9px;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 700;
+}
+.main-container .location .locat .tel .sixp {
+  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  color: #888888;
+  font-size: 13px;
+}
+
+.second-containerr {
+  width: 100%;
+  display: flex;
+}
+.second-containerr .imagenin {
+  width: 850px;
+}
+.second-containerr img {
+  width: 100%;
+}
+.second-containerr .secondd-content {
+  width: 370px;
+  margin-right: 276px;
+}
+.second-containerr .diva {
+  width: 390px;
+  margin-top: 158px;
+}
+.second-containerr .howtowork {
+  font-size: 14px;
+  color: #F16214;
+  font-weight: 700px;
+}
+.second-containerr .foodis {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+}
+.second-containerr .lorem {
+  font-size: 14.2px;
+  color: #888888;
+  margin-top: 45px;
+}
+.second-containerr .learn {
+  width: 160px;
+  height: 50px;
+  margin-top: 29px;
+}
+
+.thread-containerr {
+  width: 100%;
+}
+.thread-containerr .ortadaki {
+  width: 420px;
+  height: 72px;
+  margin: 97px 0px 554px 37%;
+}
+.thread-containerr .ortadaki .services {
+  color: #F16214;
+  margin: 0 190px;
+}
+.thread-containerr .ortadaki .why {
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+}
+.thread-containerr .ortadakininalti {
+  width: 870px;
+  height: 295px;
+  margin-top: -500px;
+  margin-left: 370px;
+  display: flex;
+  gap: 30px;
+}
+.thread-containerr .ortadakininalti .qua {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+.thread-containerr .ortadakininalti .but {
+  color: #888888;
+  font-size: 12px;
+  text-align: center;
+  margin-left: 8px;
+  margin-top: 12px;
+}
+.thread-containerr .ortadakininalti .icon1 {
+  width: 80px;
+  height: 80px;
+  margin-left: 85px;
+  margin-top: 40px;
+}
+.thread-containerr .ortadakininalti .img {
+  width: 100%;
+}
+.thread-containerr .ortadakininalti .quality {
+  width: 240px;
+  height: 250px;
+}
+.thread-containerr .ortadakininalti .healthy {
+  width: 240px;
+  height: 250px;
+}
+.thread-containerr .ortadakininalti .healthy img {
+  width: 80px;
+  height: 80px;
+  margin-left: 85px;
+  margin-top: 40px;
+}
+.thread-containerr .ortadakininalti .healthy .healt {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+.thread-containerr .ortadakininalti .healthy .but2 {
+  color: #888888;
+  font-size: 12px;
+  text-align: center;
+  margin-left: 8px;
+  margin-top: 12px;
+}
+.thread-containerr .ortadakininalti .fast {
+  width: 240px;
+  height: 250px;
+}
+.thread-containerr .ortadakininalti .fast img {
+  width: 80px;
+  height: 80px;
+  margin-left: 85px;
+  margin-top: 40px;
+}
+.thread-containerr .ortadakininalti .fast .fas {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+.thread-containerr .ortadakininalti .fast .but3 {
+  color: #888888;
+  font-size: 12px;
+  text-align: center;
+  margin-left: 8px;
+  margin-top: 12px;
+}
+
+.four-containerr {
+  width: 100%;
+}
+.four-containerr .box1 {
+  width: 353px;
+  height: 72px;
+  margin-top: 97px;
+  margin-left: 584px;
+}
+.four-containerr .box1 .prod {
+  color: #F16214;
+  font-size: 14px;
+  margin-left: 150px;
+}
+.four-containerr .box1 .most {
+  font-size: 40px;
+  font-weight: bold;
+  color: #000000;
+}
+.four-containerr .itemler {
+  margin: 98px 183px;
+  display: flex;
+  gap: 20px;
+}
+.four-containerr .itemler .sandwhich img {
+  border-top-left-radius: 15%;
+}
+.four-containerr .itemler .sandwhich .gyro {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 14px;
+  margin-left: 19px;
+}
+.four-containerr .itemler .sandwhich button {
+  color: #FFFFFF;
+  background-color: #F16214;
+  width: 120px;
+  height: 40px;
+  padding: 4px 19px;
+  border-radius: 30px;
+  border: #F16214;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.four-containerr .itemler .sandwhich .star {
+  margin-left: 160px;
+}
+.four-containerr .itemler .sandwhich .dollar {
+  margin-left: 195px;
+  font-weight: bold;
+}
+.four-containerr .itemler .enchilada img {
+  border-top-left-radius: 15%;
+}
+.four-containerr .itemler .enchilada .ench {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 14px;
+  margin-left: 19px;
+}
+.four-containerr .itemler .enchilada button {
+  color: #FFFFFF;
+  background-color: #F16214;
+  width: 120px;
+  height: 40px;
+  padding: 4px 19px;
+  border-radius: 30px;
+  border: #F16214;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.four-containerr .itemler .enchilada .star {
+  margin-left: 218px;
+}
+.four-containerr .itemler .enchilada .dollar {
+  margin-left: 195px;
+  font-weight: bold;
+}
+.four-containerr .itemler .GreenBeans img {
+  border-top-left-radius: 15%;
+}
+.four-containerr .itemler .GreenBeans .green {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 14px;
+  margin-left: 19px;
+}
+.four-containerr .itemler .GreenBeans button {
+  color: #FFFFFF;
+  background-color: #F16214;
+  width: 120px;
+  height: 40px;
+  padding: 4px 19px;
+  border-radius: 30px;
+  border: #F16214;
+  margin-left: 10px;
+}
+.four-containerr .itemler .GreenBeans .star1 {
+  margin-left: 305px;
+}
+.four-containerr .itemler .GreenBeans .dollar {
+  margin-left: 195px;
+  font-weight: bold;
+}
+.four-containerr .itemler2 {
+  margin: 98px 183px;
+  display: flex;
+  gap: 20px;
+}
+.four-containerr .itemler2 .pizza img {
+  border-top-left-radius: 15%;
+}
+.four-containerr .itemler2 .pizza .piz {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 14px;
+  margin-left: 19px;
+}
+.four-containerr .itemler2 .pizza button {
+  color: #FFFFFF;
+  background-color: #F16214;
+  width: 120px;
+  height: 40px;
+  padding: 4px 19px;
+  border-radius: 30px;
+  border: #F16214;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.four-containerr .itemler2 .pizza .star {
+  margin-left: 255px;
+}
+.four-containerr .itemler2 .pizza .dollar {
+  margin-left: 188px;
+  font-weight: bold;
+}
+.four-containerr .itemler2 .chicken img {
+  border-top-left-radius: 15%;
+}
+.four-containerr .itemler2 .chicken .chi {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 14px;
+  margin-left: 19px;
+}
+.four-containerr .itemler2 .chicken button {
+  color: #FFFFFF;
+  background-color: #F16214;
+  width: 120px;
+  height: 40px;
+  padding: 4px 19px;
+  border-radius: 30px;
+  border: #F16214;
+  margin-left: 15px;
+}
+.four-containerr .itemler2 .chicken .star {
+  margin-left: 303px;
+}
+.four-containerr .itemler2 .chicken .dollar {
+  margin-left: 188px;
+  font-weight: bold;
+}
+.four-containerr .itemler2 .Greensalad img {
+  border-top-left-radius: 15%;
+}
+.four-containerr .itemler2 .Greensalad .greens {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 14px;
+  margin-left: 19px;
+}
+.four-containerr .itemler2 .Greensalad button {
+  color: #FFFFFF;
+  background-color: #F16214;
+  width: 120px;
+  height: 40px;
+  padding: 4px 19px;
+  border-radius: 30px;
+  border: #F16214;
+  margin-left: 15px;
+}
+.four-containerr .itemler2 .Greensalad .star1 {
+  margin-left: 305px;
+}
+.four-containerr .itemler2 .Greensalad .dollar {
+  margin-left: 190px;
+  font-weight: bold;
+}
+.four-containerr .button55 {
+  margin-left: 700px;
+  margin-top: 60px;
+}
+
+.five-containerr {
+  width: 100%;
+}
+.five-containerr img {
+  width: 100%;
+}
+.five-containerr .apps {
+  width: 1600px;
+  margin: 0 auto;
+  margin-left: -100px;
+}
+
+.six-container {
+  width: 100%;
+  position: relative;
+}
+.six-container .image6 {
+  width: 1300px;
+}
+.six-container .image6 .img6 {
+  width: 100%;
+}
+.six-container .testimo {
+  width: 400px;
+  height: 70px;
+  position: absolute;
+  top: 80px;
+  left: 726px;
+}
+.six-container .testimo .tes {
+  font-size: 12px;
+  color: #F16214;
+  font-weight: bold;
+  margin-left: 115px;
+}
+.six-container .testimo .ou {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+}
+.six-container .adam {
+  width: 450px;
+  height: 250px;
+  position: absolute;
+  top: 220px;
+  left: 340px;
+}
+.six-container .adam img {
+  margin-left: 150px;
+  position: relative;
+}
+.six-container .adam .willi {
+  position: relative;
+  font-weight: bold;
+  top: -43px;
+}
+.six-container .adam .ceo {
+  position: absolute;
+  color: #888888;
+  font-size: 10px;
+  top: 45px;
+  left: 240px;
+}
+.six-container .adam .llorem {
+  color: #888888;
+  font-size: 13.5px;
+  text-align: center;
+  margin-top: 38px;
+  margin-bottom: 80px;
+  width: 450px;
+}
+.six-container .adam .arrow {
+  position: absolute;
+  top: 220px;
+}
+
+.seven-container {
+  width: 100%;
+}
+.seven-container .subscribe {
+  width: 1510px;
+}
+.seven-container .subscribe img {
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+}
+.footer .foot {
+  width: 940px;
+  border-bottom: 3px solid #888888;
+  height: 250px;
+  margin: 0 auto;
+  position: relative;
+}
+.footer .foot .bawliq {
+  display: flex;
+  gap: 120px;
+}
+.footer .foot .bawliq p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer .foot .ortasi {
+  display: flex;
+  font-size: 14px;
+  color: #888888;
+  margin-top: 30px;
+}
+.footer .foot .ortasi p {
+  width: 210px;
+  margin-left: 85px;
+}
+.footer .foot .ortasi :first-child {
+  margin-left: -1px;
+}
+.footer .foot .ortasi :last-child {
+  margin-right: 0px;
+}
+.footer .foot .ortasi ul {
+  list-style: none;
+  margin-left: 130px;
+}
+.footer .foot .ortasi ul li {
+  margin-bottom: 8px;
+}
+.footer .foot .mediaa {
+  display: flex;
+  gap: 23px;
+  position: absolute;
+  top: 155px;
+}
+.footer .foot .email {
+  position: absolute;
+  left: 710px;
+  top: 145px;
+}
+.footer .copyright {
+  color: #888888;
+  font-size: 15px;
+  margin-left: 630px;
+}/*# sourceMappingURL=style.css.map */
